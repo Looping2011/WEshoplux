@@ -1,0 +1,33 @@
+<html><head><style>
+      .ribbon {
+        background-color: #00CED1;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }       .ribbon-button {
+        background-color: transparent;
+        border: none;
+        color: #FFF;
+        font-size: 14px;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }       .ribbon-button:hover {
+        background-color: #333;
+        color: #FFF;
+        cursor: pointer;
+      }       .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: calc(100vh - 50px);
+      }       .box {
+        width: 33%;
+        height: 300px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 20px;
+      }</style></head><body><div class="ribbon"><div style="margin-left: 20px;">WE-Shop</div><div style="display: flex; margin-right: 20px;"><a href="https://informationtoyou.github.io/team.html"><button class="ribbon-button">Meet the Team</button></a><a href="https://informationtoyou.github.io/about.html"><button class="ribbon-button">About Us</button></a><a href="https://informationtoyou.github.io/contact.html"><button class="ribbon-button">Contact Us</button></a></div></div><div class="container"></body></html>
